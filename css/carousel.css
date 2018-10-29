@@ -1,0 +1,79 @@
+#section_1{
+  padding: 87px 0px;
+}
+
+
+.carousel .carousel-inner .item{
+   background-size: cover;
+    height: 420px;
+    
+}
+.carousel .carousel-inner .item .img1{   
+width: 100%;
+height: 100%;    
+    
+}
+
+.carousel .carousel-inner .item .carousel-caption{
+  padding-bottom: 89px;
+}
+
+.carousel .carousel-control{
+  background-image: none;
+}
+
+.carousel-btn{
+  border-radius: 54px;
+  margin: 16px 0;
+  padding: 12px;
+}
+
+.btn-link.carousel-btn{
+  border: solid 3px #979797;
+  color: white;
+  text-decoration: none;
+} 
+
+.btn-link.carousel-btn:hover{
+  border: solid 3px #888888;
+}
+
+.carousel .carousel-inner .item .carousel-caption ._title{
+  padding-bottom: 67px;
+}
+
+.carousel .carousel-control .glyphicon.glyphicon-chevron-left, .carousel .glyphicon.glyphicon-chevron-right{
+  font-size: 70px;
+}
+
+.carousel-indicators li{
+  width: 18px;
+  height: 18px;
+  margin: 0 12px;
+}
+
+.carousel-indicators li.active{
+  width: 18px;
+  height: 18px;
+  margin: 0 12px;
+}
+
+@media (max-width: 767px) {
+  .carousel .carousel-inner .item .carousel-caption ._title{
+    font-size: 50px;
+  }
+
+  .carousel .carousel-control .glyphicon.glyphicon-chevron-left, .carousel .glyphicon.glyphicon-chevron-right{
+    top: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  #section_1{
+    padding: 142px 0px;
+  }
+
+  .carousel .carousel-inner .item .carousel-caption{
+    padding-bottom: 112px;
+  }
+}

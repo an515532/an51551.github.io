@@ -1,0 +1,39 @@
+#section_3 {
+    color: white;
+}
+
+#section_3 ul._list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#section_3 .phone {
+    border-radius: 54px;
+    background-color: #d8d8d8;
+    border: solid 5px #9012fe;
+}
+
+.embed-responsive-1by2 {
+    padding-bottom: 200%;
+}
+
+.phones {
+    float: left;
+    width: 200%;
+    margin-left: -50%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: -70%;
+    transform: rotate(28deg);
+    -webkit-transform: rotate(28deg);
+}
+
+@media (min-width: 768px) {
+    .phones {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: -100%;
+        margin-top: -15%;
+        margin-bottom: -50%;
+    }
+}

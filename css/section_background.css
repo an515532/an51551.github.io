@@ -1,0 +1,12 @@
+.jumbotron {
+    margin-bottom: 0;
+}
+
+
+.image_background {
+    background-image: url(/img/code3.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+}
