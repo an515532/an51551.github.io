@@ -1,0 +1,54 @@
+nav.navbar {
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-brand {
+    padding: 10px 15px;
+}
+
+.navbar-brand > img {
+    height: 30px;
+}
+
+.navbar .icon-bar {
+    background-color: white;
+}
+
+.navbar-nav > li > a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar-nav > li > a:hover {
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        height: 80px
+    }
+
+    .navbar-nav > li > a {
+        height: 80px;
+        line-height: 80px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-brand {
+        height: 80px;
+        padding: 20px 15px;
+    }
+
+    .navbar-brand > img {
+        height: 40px;
+    }
+}
